@@ -19,6 +19,8 @@ const CartItem = (props) => {
     dispatch(cartActions.removeItemFromCart(id));
   };
 
+  console.log(total, " in cart item")
+
   return (
     <li className={classes.item}>
       <header>
